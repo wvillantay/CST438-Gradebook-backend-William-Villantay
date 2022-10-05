@@ -27,6 +27,7 @@ public class EnrollmentController {
 	 * endpoint used by registration service to add an enrollment to an existing
 	 * course.
 	 */
+	#testing
 	@PostMapping("/enrollment")
 	@Transactional
 	public EnrollmentDTO addEnrollment(@RequestBody EnrollmentDTO enrollmentDTO) {
